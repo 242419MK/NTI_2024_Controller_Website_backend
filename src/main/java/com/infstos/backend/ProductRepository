@@ -1,0 +1,7 @@
+package com.infstos.backend.repository;
+
+import com.infstos.backend.model.ControllerPad;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface ProductRepository extends MongoRepository<ControllerPad, String> {
+}
