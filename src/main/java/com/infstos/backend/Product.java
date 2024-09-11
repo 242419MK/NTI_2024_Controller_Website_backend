@@ -3,7 +3,7 @@ package com.infstos.backend;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "products")
+@Document(collection = "Products")
 
 @jakarta.persistence.Entity
 public class Product {

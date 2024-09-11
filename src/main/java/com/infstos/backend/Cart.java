@@ -4,7 +4,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.List;
 
-@Document(collection = "cart")
+@Document(collection = "Cart")
 public class Cart {
     
     @Id

@@ -25,12 +25,12 @@ public class AuthController {
 
 
     @PostMapping("/register")
-    public String register(@RequestBody User user, @RequestParam("recaptcha") String recaptchaResponse) {
+    public String register(@RequestBody User user, String recaptchaResponse) {
         // Sprawdź reCAPTCHA (kod reCAPTCHA będzie niżej)
-        boolean captchaVerified = verifyRecaptcha(recaptchaResponse);
-        if (!captchaVerified) {
-            return "Captcha failed!";
-        }
+        //boolean captchaVerified = verifyRecaptcha(recaptchaResponse);
+        // if (!captchaVerified) {
+        //     return "Captcha failed!";
+        // }
 
         userService.registerUser(user);
         return "User registered successfully!";

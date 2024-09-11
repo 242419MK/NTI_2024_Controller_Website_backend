@@ -10,9 +10,10 @@ import org.springframework.security.core.userdetails.UserDetails;
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.GenerationType;
-
+import org.springframework.data.mongodb.core.mapping.Document;
 
 @jakarta.persistence.Entity
+@Document(collection = "Users")
 public class User implements UserDetails{
 
     @jakarta.persistence.Id
@@ -30,6 +31,16 @@ public class User implements UserDetails{
     // Role użytkownika
     @ElementCollection(fetch = FetchType.EAGER)
     private List<String> roles;
+
+
+    public User(String username, String password, String email, String role, String profilePicture) {
+        this.username = username;
+        this.password = password;
+        this.email = email;
+        this.role = role;
+        this.profilePicture = profilePicture;
+    }
+    
 
     // Getters and setters
 
