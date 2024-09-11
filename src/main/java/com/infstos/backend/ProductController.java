@@ -46,10 +46,9 @@ public class ProductController {
             product.setName(updatedProduct.getName());
             product.setBaseprice(updatedProduct.getBaseprice());
             product.setCable(updatedProduct.isCable());
-            product.setSize(updatedProduct.getSize());
             product.setColor(updatedProduct.getColor());
             product.setVariant(updatedProduct.getVariant());
-            product.setImageURL(updatedProduct.getImageURL());
+            //product.setImageURL(updatedProduct.getImageURL());
             
             productRepository.save(product);
             return ResponseEntity.ok(product);

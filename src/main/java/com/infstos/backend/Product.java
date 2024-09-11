@@ -13,10 +13,9 @@ public class Product {
     private String name;
     private double baseprice;
     private boolean isCable;
-    private String size;
     private String color;
     private String variant;
-    private String imageURL;
+    //private String imageURL;
 
         // Gettery i settery
     
@@ -52,14 +51,6 @@ public class Product {
             this.isCable = cable;
         }
     
-        public String getSize() {
-            return size;
-        }
-    
-        public void setSize(String size) {
-            this.size = size;
-        }
-    
         public String getColor() {
             return color;
         }
@@ -76,6 +67,7 @@ public class Product {
             this.variant = variant;
         }
     
+        /* 
         public String getImageURL() {
             return imageURL;
         }
@@ -83,5 +75,6 @@ public class Product {
         public void setImageURL(String imageURL) {
             this.imageURL = imageURL;
         }
+            */
     }
 
