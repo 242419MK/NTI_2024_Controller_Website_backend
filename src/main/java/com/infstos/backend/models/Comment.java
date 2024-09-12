@@ -1,5 +1,4 @@
-package com.infstos.backend.Old.Comment;
-// package com.infstos.backend.Comment;
+// package com.infstos.backend.models;
 
 // import org.springframework.data.annotation.Id;
 // import org.springframework.data.mongodb.core.mapping.Document;

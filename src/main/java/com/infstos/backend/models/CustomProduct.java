@@ -1,9 +1,9 @@
-// package com.infstos.backend.Old.CustomProduct;
+// package com.infstos.backend.models;
 
 // import org.springframework.data.annotation.Id;
 // import org.springframework.data.mongodb.core.mapping.Document;
 
-// @Document(collection = "Custom_products")
+// @Document(collection = "custom_products")
 // public class CustomProduct {
 
 //     @Id
@@ -13,7 +13,7 @@
 //     private String wholeColor;
 //     private double basePrice;
 //     private boolean isCable;
-//     private String variant;  // Typ padów np. "xbox", "ps4"
+//     private String variant;
 
 //     // Gettery i Settery
 //     public String getId() {

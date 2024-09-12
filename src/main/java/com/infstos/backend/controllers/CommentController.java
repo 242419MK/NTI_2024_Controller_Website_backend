@@ -1,4 +1,4 @@
-package com.infstos.backend.Old.Comment;
+package com.infstos.backend.controllers;
 // package com.infstos.backend.Comment;
 // import org.springframework.beans.factory.annotation.Autowired;
 // import org.springframework.http.ResponseEntity;

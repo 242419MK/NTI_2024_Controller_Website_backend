@@ -1,3 +1,4 @@
+package com.infstos.backend.zzzOld.User;
 // package com.infstos.backend.Old.User;
 
 // import org.springframework.beans.factory.annotation.Autowired;

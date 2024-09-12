@@ -1,3 +1,4 @@
+package com.infstos.backend.zzzOld.User;
 // package com.infstos.backend.User;
 
 // import org.springframework.data.mongodb.repository.MongoRepository;

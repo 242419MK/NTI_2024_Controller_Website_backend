@@ -1,22 +1,22 @@
-// package com.infstos.backend.Old.Order;
+package com.infstos.backend.zzzOld.Cart;
+
+// package com.infstos.backend.Cart;
 
 // import org.springframework.data.annotation.Id;
 // import org.springframework.data.mongodb.core.mapping.Document;
 
-// import com.infstos.backend.Old.CustomProduct.CustomProduct;
+// import com.infstos.backend.CustomProduct.CustomProduct;
 
 // import java.util.List;
 
-// @Document(collection = "Order")
-// public class Order {
+// @Document(collection = "Cart")
+// public class Cart {
     
 //     @Id
 //     private String id;
-
+    
 //     private String userId;
 //     private List<CustomProduct> products;
-//     private double totalPrice;
-//     private String shippingAddress;
 
 //     // Getters and setters
 
@@ -42,21 +42,5 @@
 
 //     public void setProducts(List<CustomProduct> products) {
 //         this.products = products;
-//     }
-
-//     public double getTotalPrice() {
-//         return totalPrice;
-//     }
-
-//     public void setTotalPrice(double totalPrice) {
-//         this.totalPrice = totalPrice;
-//     }
-
-//     public String getShippingAddress() {
-//         return shippingAddress;
-//     }
-
-//     public void setShippingAddress(String shippingAddress) {
-//         this.shippingAddress = shippingAddress;
 //     }
 // }

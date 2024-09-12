@@ -1,3 +1,4 @@
+package com.infstos.backend.controllers;
 // package com.infstos.backend.Old.CustomProduct;
 
 // import org.springframework.beans.factory.annotation.Autowired;

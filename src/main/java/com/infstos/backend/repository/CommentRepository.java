@@ -1,5 +1,4 @@
-package com.infstos.backend.Old.Comment;
-// package com.infstos.backend.Comment;
+// package com.infstos.backend.repository;
 
 // import org.springframework.data.mongodb.repository.MongoRepository;
 
